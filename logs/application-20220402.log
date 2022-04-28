@@ -1,0 +1,1049 @@
+2022-04-02 21:00:05.113 [main] INFO  ru.sfedu.simpleBuilder.lab1.api.HibernateUtil - start getSessionFactory()
+2022-04-02 21:00:05.131 [main] DEBUG ru.sfedu.simpleBuilder.lab1.api.HibernateUtil - file name: lab3-hibernate.cfg.xml
+2022-04-02 21:00:05.160 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2022-04-02 21:00:05.172 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2022-04-02 21:00:05.174 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2022-04-02 21:00:05.183 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2022-04-02 21:00:05.195 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.envers.boot.internal.EnversIntegrator].
+2022-04-02 21:00:05.242 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-02 21:00:05.243 [main] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-04-02 21:00:05.502 [main] DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+2022-04-02 21:00:05.503 [main] DEBUG org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+2022-04-02 21:00:05.511 [main] DEBUG org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2022-04-02 21:00:05.662 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2022-04-02 21:00:05.662 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2022-04-02 21:00:05.662 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2022-04-02 21:00:05.665 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.envers.boot.internal.EnversIntegrator].
+2022-04-02 21:00:05.679 [main] DEBUG org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2022-04-02 21:00:05.723 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2022-04-02 21:00:05.724 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2022-04-02 21:00:05.739 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-02 21:00:05.866 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1bdbf9be
+2022-04-02 21:00:05.867 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1bdbf9be
+2022-04-02 21:00:05.867 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1bdbf9be
+2022-04-02 21:00:05.867 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@3c818ac4
+2022-04-02 21:00:05.868 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@2516fc68
+2022-04-02 21:00:05.868 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@606fc505
+2022-04-02 21:00:05.869 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@240139e1
+2022-04-02 21:00:05.869 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@240139e1
+2022-04-02 21:00:05.869 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@240139e1
+2022-04-02 21:00:05.872 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@109f5dd8
+2022-04-02 21:00:05.872 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@109f5dd8
+2022-04-02 21:00:05.873 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@109f5dd8
+2022-04-02 21:00:05.873 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@49d98dc5
+2022-04-02 21:00:05.874 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@49d98dc5
+2022-04-02 21:00:05.874 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@49d98dc5
+2022-04-02 21:00:05.875 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@1654a892
+2022-04-02 21:00:05.875 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@1654a892
+2022-04-02 21:00:05.875 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@1654a892
+2022-04-02 21:00:05.876 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5e8a459
+2022-04-02 21:00:05.876 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5e8a459
+2022-04-02 21:00:05.876 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@5e8a459
+2022-04-02 21:00:05.877 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@6f95cd51
+2022-04-02 21:00:05.877 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@6f95cd51
+2022-04-02 21:00:05.877 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6f95cd51
+2022-04-02 21:00:05.878 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@2fa3be26
+2022-04-02 21:00:05.878 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@2fa3be26
+2022-04-02 21:00:05.878 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2fa3be26
+2022-04-02 21:00:05.880 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@47dd778
+2022-04-02 21:00:05.880 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@47dd778
+2022-04-02 21:00:05.881 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3ae66c85
+2022-04-02 21:00:05.881 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3ae66c85
+2022-04-02 21:00:05.882 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@367795c7
+2022-04-02 21:00:05.882 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@367795c7
+2022-04-02 21:00:05.882 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1fd386c3
+2022-04-02 21:00:05.883 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@13e9f2e2
+2022-04-02 21:00:05.883 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@1f651cd8
+2022-04-02 21:00:05.884 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1f651cd8
+2022-04-02 21:00:05.884 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@430fa4ef
+2022-04-02 21:00:05.885 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@430fa4ef
+2022-04-02 21:00:05.887 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@2bfeb1ef
+2022-04-02 21:00:05.887 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2bfeb1ef
+2022-04-02 21:00:05.891 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@907f2b7
+2022-04-02 21:00:05.891 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@907f2b7
+2022-04-02 21:00:05.892 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@304b9f1a
+2022-04-02 21:00:05.892 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@304b9f1a
+2022-04-02 21:00:05.893 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@62315f22
+2022-04-02 21:00:05.893 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@62315f22
+2022-04-02 21:00:05.894 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7f4037ed
+2022-04-02 21:00:05.894 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7f4037ed
+2022-04-02 21:00:05.896 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1ad926d3
+2022-04-02 21:00:05.896 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1ad926d3
+2022-04-02 21:00:05.897 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@68105edc
+2022-04-02 21:00:05.897 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@68105edc
+2022-04-02 21:00:05.898 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@66d57c1b
+2022-04-02 21:00:05.898 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@66d57c1b
+2022-04-02 21:00:05.899 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@76adb233
+2022-04-02 21:00:05.899 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@76adb233
+2022-04-02 21:00:05.900 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@56193c7d
+2022-04-02 21:00:05.900 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@56193c7d
+2022-04-02 21:00:05.900 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@56193c7d
+2022-04-02 21:00:05.901 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7f9e1534
+2022-04-02 21:00:05.902 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@42cc13a0
+2022-04-02 21:00:05.902 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@42cc13a0
+2022-04-02 21:00:05.902 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@42cc13a0
+2022-04-02 21:00:05.903 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@64e92d61
+2022-04-02 21:00:05.903 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@79b663b3
+2022-04-02 21:00:05.904 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@5649ec46
+2022-04-02 21:00:05.904 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5649ec46
+2022-04-02 21:00:05.911 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@38f2e97e
+2022-04-02 21:00:05.911 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@38f2e97e
+2022-04-02 21:00:05.911 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1286528d
+2022-04-02 21:00:05.912 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1286528d
+2022-04-02 21:00:05.912 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@2228db21
+2022-04-02 21:00:05.912 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2228db21
+2022-04-02 21:00:05.913 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3f4f9acd
+2022-04-02 21:00:05.913 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3f4f9acd
+2022-04-02 21:00:05.914 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@ca66933
+2022-04-02 21:00:05.915 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@3bd55d8
+2022-04-02 21:00:05.915 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@3bd55d8
+2022-04-02 21:00:05.915 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@3bd55d8
+2022-04-02 21:00:05.916 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2e6ba49a
+2022-04-02 21:00:05.916 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2e6ba49a
+2022-04-02 21:00:05.916 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2e6ba49a
+2022-04-02 21:00:05.917 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@4cfbaf4
+2022-04-02 21:00:05.917 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@6b9c69a9
+2022-04-02 21:00:05.918 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@2f4919b0
+2022-04-02 21:00:05.918 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@2f4919b0
+2022-04-02 21:00:05.918 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@2f4919b0
+2022-04-02 21:00:05.919 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2c42b421
+2022-04-02 21:00:05.919 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2c42b421
+2022-04-02 21:00:05.919 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2c42b421
+2022-04-02 21:00:05.920 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@39aa45a1
+2022-04-02 21:00:05.920 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@4c060c8f
+2022-04-02 21:00:05.921 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@4a1e3ac1
+2022-04-02 21:00:05.921 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4a1e3ac1
+2022-04-02 21:00:05.922 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7d151a
+2022-04-02 21:00:05.922 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@712ca57b
+2022-04-02 21:00:05.922 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@712ca57b
+2022-04-02 21:00:05.923 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@6dba847b
+2022-04-02 21:00:05.923 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6dba847b
+2022-04-02 21:00:05.924 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4351171a
+2022-04-02 21:00:05.924 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@89c65d5
+2022-04-02 21:00:05.925 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@58f174d9
+2022-04-02 21:00:05.928 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@7ff2b8d2
+2022-04-02 21:00:05.928 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7ff2b8d2
+2022-04-02 21:00:05.929 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@456be73c
+2022-04-02 21:00:05.929 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2375b321
+2022-04-02 21:00:05.929 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5baaae4c
+2022-04-02 21:00:05.929 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5b6e8f77
+2022-04-02 21:00:05.930 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@41a6d121
+2022-04-02 21:00:05.930 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4f449e8f
+2022-04-02 21:00:05.930 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@411291e5
+2022-04-02 21:00:05.930 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6e28bb87
+2022-04-02 21:00:05.967 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2022-04-02 21:00:05.967 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2022-04-02 21:00:05.968 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2022-04-02 21:00:05.968 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2022-04-02 21:00:05.968 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2022-04-02 21:00:05.969 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2022-04-02 21:00:05.970 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2022-04-02 21:00:05.971 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-04-02 21:00:05.971 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2022-04-02 21:00:05.972 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2022-04-02 21:00:05.972 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2022-04-02 21:00:05.973 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2022-04-02 21:00:05.973 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-04-02 21:00:05.974 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2022-04-02 21:00:05.978 [main] INFO  org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:tcp://localhost/~/test
+2022-04-02 21:00:05.978 [main] INFO  org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=admin}
+2022-04-02 21:00:05.978 [main] INFO  org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+2022-04-02 21:00:06.004 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using log4j2 logging.
+2022-04-02 21:00:06.011 [MLog-Init-Reporter] DEBUG com.mchange.v2.log.MLog - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2022-04-02 21:00:06.011 [MLog-Init-Reporter] DEBUG com.mchange.v2.log.MLog - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2022-04-02 21:00:06.011 [MLog-Init-Reporter] DEBUG com.mchange.v2.log.MLog - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2022-04-02 21:00:06.011 [MLog-Init-Reporter] DEBUG com.mchange.v2.log.MLog - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2022-04-02 21:00:06.011 [MLog-Init-Reporter] DEBUG com.mchange.v2.log.MLog - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2022-04-02 21:00:06.014 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2022-04-02 21:00:06.014 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2022-04-02 21:00:06.014 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2022-04-02 21:00:06.014 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2022-04-02 21:00:06.068 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2022-04-02 21:00:06.080 [main] DEBUG com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgeby9an1tboqs91ksveha|5e9456ae,name=1hgeby9an1tboqs91ksveha|5e9456ae registered.
+2022-04-02 21:00:06.089 [main] DEBUG com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgeby9an1tboqs91ksveha|5e9456ae,name=1hgeby9an1tboqs91ksveha|5e9456ae unregistered, in order to be reregistered after update.
+2022-04-02 21:00:06.089 [main] DEBUG com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgeby9an1tboqs91ksveha|5e9456ae,name=1hgeby9an1tboqs91ksveha|5e9456ae registered.
+2022-04-02 21:00:06.093 [main] INFO  org.hibernate.c3p0.internal.C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+2022-04-02 21:00:06.104 [main] INFO  com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8ad3df27 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@a78764f5 [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hgeby9an1tboqs91ksveha|5cf8edcf, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@80c12d39 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgeby9an1tboqs91ksveha|425d5d46, jdbcUrl -> jdbc:h2:tcp://localhost/~/test, properties -> {password=******, user=******} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgeby9an1tboqs91ksveha|5e9456ae, numHelperThreads -> 3 ]
+2022-04-02 21:00:06.115 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2022-04-02 21:00:06.115 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2022-04-02 21:00:06.115 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2022-04-02 21:00:06.115 [main] DEBUG com.mchange.v2.cfg.MConfig - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2022-04-02 21:00:06.116 [main] DEBUG com.mchange.v2.resourcepool.BasicResourcePool - com.mchange.v2.resourcepool.BasicResourcePool@65bcf7c2 config: [start -> 3; min -> 3; max -> 15; inc -> 3; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2022-04-02 21:00:06.116 [main] DEBUG com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager - Created new pool for auth, username (masked): 'ad******'.
+2022-04-02 21:00:06.116 [main] DEBUG com.mchange.v2.resourcepool.BasicResourcePool - acquire test -- pool size: 0; target_pool_size: 3; desired target? 1
+2022-04-02 21:00:06.116 [main] DEBUG com.mchange.v2.resourcepool.BasicResourcePool - awaitAvailable(): [unknown]
+2022-04-02 21:00:06.256 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+       name : H2
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+2022-04-02 21:00:06.256 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+       name : H2 JDBC Driver
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+2022-04-02 21:00:06.256 [main] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.1
+2022-04-02 21:00:06.274 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-02 21:00:06.301 [main] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2022-04-02 21:00:06.320 [main] INFO  org.hibernate.envers.boot.internal.EnversServiceImpl - Envers integration enabled? : true
+2022-04-02 21:00:06.321 [main] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration org.hibernate.envers.internal.entities.RevisionTypeType -> org.hibernate.type.CustomType@7048535f
+2022-04-02 21:00:06.322 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@15f2eda3] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@34cf294c]
+2022-04-02 21:00:06.353 [main] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2022-04-02 21:00:06.364 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent
+2022-04-02 21:00:06.384 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.390 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name BuildingComponent
+2022-04-02 21:00:06.393 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent on table BUILDINGCOMPONENT
+2022-04-02 21:00:06.408 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BUILDINGCOMPONENT), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.410 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent] is safe
+2022-04-02 21:00:06.410 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent
+2022-04-02 21:00:06.411 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.413 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent:id]
+2022-04-02 21:00:06.416 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.417 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.420 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.421 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.422 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BUILDINGCOMPONENT), mappingColumn=Materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.423 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BUILDINGCOMPONENT), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.428 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BUILDINGCOMPONENT), mappingColumn=Materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.428 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BUILDINGCOMPONENT), mappingColumn=Materials_KEY, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.429 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='Materials_KEY', referencedColumn='null', mappedBy='null'}
+2022-04-02 21:00:06.429 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.430 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.430 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials
+2022-04-02 21:00:06.432 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property Materials
+2022-04-02 21:00:06.436 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList
+2022-04-02 21:00:06.437 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.437 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name BuildingList
+2022-04-02 21:00:06.438 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab4.model.list.BuildingList on table BuildingList
+2022-04-02 21:00:06.439 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingList), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.440 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.list.BuildingList] is safe
+2022-04-02 21:00:06.440 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.list.BuildingList
+2022-04-02 21:00:06.440 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.440 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.list.BuildingList:id]
+2022-04-02 21:00:06.440 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.440 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.441 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.441 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.441 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingList), mappingColumn=materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.441 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingList), mappingColumn=materials_ORDER, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.442 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingList), mappingColumn=materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.442 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingList), mappingColumn=materials_KEY, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.442 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='materials_KEY', referencedColumn='null', mappedBy='null'}
+2022-04-02 21:00:06.443 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.443 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.443 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials
+2022-04-02 21:00:06.444 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property materials
+2022-04-02 21:00:06.444 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap
+2022-04-02 21:00:06.445 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.445 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name BuildingMap
+2022-04-02 21:00:06.445 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap on table BuildingMap
+2022-04-02 21:00:06.447 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingMap), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.447 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap] is safe
+2022-04-02 21:00:06.447 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap
+2022-04-02 21:00:06.447 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.447 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap:id]
+2022-04-02 21:00:06.447 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.448 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.448 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.448 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.448 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingMap), mappingColumn=materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.448 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingMap), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.452 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingMap), mappingColumn=materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.453 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingMap), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.454 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='materials_KEY', referencedColumn='null', mappedBy='null'}
+2022-04-02 21:00:06.454 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.454 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.454 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials
+2022-04-02 21:00:06.455 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property materials
+2022-04-02 21:00:06.456 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet
+2022-04-02 21:00:06.456 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.456 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name BuildingSet
+2022-04-02 21:00:06.456 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet on table BuildingSet
+2022-04-02 21:00:06.459 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingSet), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.462 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet] is safe
+2022-04-02 21:00:06.463 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet
+2022-04-02 21:00:06.463 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.463 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet:id]
+2022-04-02 21:00:06.463 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.463 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingSet), mappingColumn=materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingSet), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingSet), mappingColumn=materials, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingSet), mappingColumn=materials_KEY, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='materials_KEY', referencedColumn='null', mappedBy='null'}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='BUILDINGset_id', referencedColumn='', mappedBy=''}
+2022-04-02 21:00:06.464 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2022-04-02 21:00:06.465 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials
+2022-04-02 21:00:06.465 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property materials
+2022-04-02 21:00:06.465 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate
+2022-04-02 21:00:06.465 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.465 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name BuildingTemplate
+2022-04-02 21:00:06.465 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate on table BuildingTemplateOO
+2022-04-02 21:00:06.470 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.471 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate] is safe
+2022-04-02 21:00:06.471 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate
+2022-04-02 21:00:06.475 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.475 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate:id]
+2022-04-02 21:00:06.475 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.482 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.482 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.482 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='', mappedBy=''}
+2022-04-02 21:00:06.482 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=material, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.484 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property material
+2022-04-02 21:00:06.484 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate:name]
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for name
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='bt'}
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=templates, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=null, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=element, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.485 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(BuildingTemplateOO), mappingColumn=templates_KEY, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='templates_KEY', referencedColumn='null', mappedBy='null'}
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='bt'}
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='bt'}
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Collection role: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property templates
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab5.model.Material
+2022-04-02 21:00:06.486 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.487 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Material
+2022-04-02 21:00:06.487 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab5.model.Material on table MaterialOO
+2022-04-02 21:00:06.487 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialOO), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.487 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab5.model.Material] is safe
+2022-04-02 21:00:06.487 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab5.model.Material
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.Material:id]
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialOO), mappingColumn=description, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property description with lazy=false
+2022-04-02 21:00:06.488 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.Material:description]
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for description
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property description
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialOO), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.Material:name]
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for name
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+2022-04-02 21:00:06.489 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialOO), mappingColumn=someFieldSecond, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.490 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property someFieldSecond with lazy=false
+2022-04-02 21:00:06.490 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.Material:someFieldSecond]
+2022-04-02 21:00:06.490 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for someFieldSecond
+2022-04-02 21:00:06.490 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property someFieldSecond
+2022-04-02 21:00:06.490 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.sfedu.simpleBuilder.lab5.model.Template
+2022-04-02 21:00:06.491 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2022-04-02 21:00:06.491 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Template
+2022-04-02 21:00:06.491 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity ru.sfedu.simpleBuilder.lab5.model.Template on table TemplateOO
+2022-04-02 21:00:06.496 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TemplateOO), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.496 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab5.model.Template] is safe
+2022-04-02 21:00:06.496 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab5.model.Template
+2022-04-02 21:00:06.496 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+2022-04-02 21:00:06.496 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.Template:id]
+2022-04-02 21:00:06.496 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+2022-04-02 21:00:06.497 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+2022-04-02 21:00:06.497 [main] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+2022-04-02 21:00:06.497 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='id', referencedColumn='', mappedBy=''}
+2022-04-02 21:00:06.497 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TemplateOO), mappingColumn=bt, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.497 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property bt
+2022-04-02 21:00:06.498 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(TemplateOO), mappingColumn=someField, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.498 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property someField with lazy=false
+2022-04-02 21:00:06.498 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab5.model.Template:someField]
+2022-04-02 21:00:06.498 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for someField
+2022-04-02 21:00:06.498 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property someField
+2022-04-02 21:00:06.499 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.499 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.499 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for description
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for someFieldSecond
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+2022-04-02 21:00:06.500 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for someField
+2022-04-02 21:00:06.505 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [buildingcomponent]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [buildinglist]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [buildingmap]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [buildingset]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [buildingtemplateoo]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [materialoo]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [templateoo]
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials
+2022-04-02 21:00:06.506 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a collection of element: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials
+2022-04-02 21:00:06.509 [main] DEBUG org.hibernate.cfg.CollectionPropertyHolder - Attempting to locate auto-apply AttributeConverter for collection element [ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials]
+2022-04-02 21:00:06.509 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for null
+2022-04-02 21:00:06.510 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for null
+2022-04-02 21:00:06.511 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [buildingset_id] to be non-null as it is part of the primary key for table [materialset]
+2022-04-02 21:00:06.511 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: BUILDINGset_id, element: materials
+2022-04-02 21:00:06.511 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials
+2022-04-02 21:00:06.511 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a collection of element: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials
+2022-04-02 21:00:06.512 [main] DEBUG org.hibernate.cfg.CollectionPropertyHolder - Attempting to locate auto-apply AttributeConverter for collection element [ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials]
+2022-04-02 21:00:06.513 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for null
+2022-04-02 21:00:06.513 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for null
+2022-04-02 21:00:06.514 [main] DEBUG org.hibernate.cfg.CollectionPropertyHolder - Attempting to locate auto-apply AttributeConverter for collection key [ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials]
+2022-04-02 21:00:06.514 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for null
+2022-04-02 21:00:06.514 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for null
+2022-04-02 21:00:06.514 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [buildingmap_id] to be non-null as it is part of the primary key for table [materialmap]
+2022-04-02 21:00:06.515 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [name] to be non-null as it is part of the primary key for table [materialmap]
+2022-04-02 21:00:06.515 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: BuildingMap_id, index: name, element: materials
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a collection of element: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.CollectionPropertyHolder - Attempting to locate auto-apply AttributeConverter for collection element [ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials]
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for null
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for null
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for null
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for null
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [buildinglist_id] to be non-null as it is part of the primary key for table [materiallist]
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [materials_order] to be non-null as it is part of the primary key for table [materiallist]
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: BuildingList_id, index: materials_ORDER, element: materials
+2022-04-02 21:00:06.516 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials
+2022-04-02 21:00:06.517 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a collection of element: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials
+2022-04-02 21:00:06.518 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialComponent), mappingColumn=a, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property a with lazy=false
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials.collection&&element:a]
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for a
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for a
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property a
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialComponent), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials.collection&&element:name]
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for name
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+2022-04-02 21:00:06.519 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property name
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(MaterialComponent), mappingColumn=someField, insertable=true, updatable=true, unique=false}
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property someField with lazy=false
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials.collection&&element:someField]
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for someField
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for someField
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property someField
+2022-04-02 21:00:06.520 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [buildingcomponent_id] to be non-null as it is part of the primary key for table [materialcomponent]
+2022-04-02 21:00:06.521 [main] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [a] to be non-null as it is part of the primary key for table [materialcomponent]
+2022-04-02 21:00:06.521 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: BuildingComponent_id, element: a, name, someField
+2022-04-02 21:00:06.521 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Second pass for collection: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates
+2022-04-02 21:00:06.521 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Binding a OneToMany: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates through a foreign key
+2022-04-02 21:00:06.522 [main] DEBUG org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates -> TemplateOO
+2022-04-02 21:00:06.522 [main] DEBUG org.hibernate.cfg.annotations.TableBinder - Retrieving property ru.sfedu.simpleBuilder.lab5.model.Template.bt
+2022-04-02 21:00:06.522 [main] DEBUG org.hibernate.cfg.CollectionSecondPass - Mapped collection key: id, one-to-many: ru.sfedu.simpleBuilder.lab5.model.Template
+2022-04-02 21:00:06.522 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab5.model.Material
+2022-04-02 21:00:06.523 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent
+2022-04-02 21:00:06.523 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList
+2022-04-02 21:00:06.523 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap
+2022-04-02 21:00:06.523 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet
+2022-04-02 21:00:06.524 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate
+2022-04-02 21:00:06.606 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab5.model.Material
+2022-04-02 21:00:06.606 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent
+2022-04-02 21:00:06.606 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList
+2022-04-02 21:00:06.606 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap
+2022-04-02 21:00:06.606 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet
+2022-04-02 21:00:06.606 [main] DEBUG org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Resolving reference to class: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate
+2022-04-02 21:00:06.640 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+2022-04-02 21:00:06.640 [main] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: null
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2022-04-02 21:00:06.641 [main] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+2022-04-02 21:00:06.642 [main] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+2022-04-02 21:00:06.643 [main] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+2022-04-02 21:00:06.709 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2022-04-02 21:00:06.710 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2022-04-02 21:00:06.724 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2022-04-02 21:00:06.725 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {dialect=org.hibernate.dialect.H2Dialect, java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.H2Dialect, java.class.path=C:\Users\Alexandr\.m2\repository\com\h2database\h2\1.4.200\h2-1.4.200.jar;E:\AndrSP\IDeaPr\CrsWorkORM-thirdlab\target\classes;C:\Users\Alexandr\.m2\repository\org\mongodb\mongo-java-driver\3.12.10\mongo-java-driver-3.12.10.jar;C:\Users\Alexandr\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Alexandr\.m2\repository\com\opencsv\opencsv\5.5.2\opencsv-5.5.2.jar;C:\Users\Alexandr\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Alexandr\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\Alexandr\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Alexandr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Alexandr\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Alexandr\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Alexandr\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Alexandr\.m2\repository\org\simpleframework\simple-xml\2.7.1\simple-xml-2.7.1.jar;C:\Users\Alexandr\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Alexandr\.m2\repository\stax\stax\1.2.0\stax-1.2.0.jar;C:\Users\Alexandr\.m2\repository\xpp3\xpp3\1.1.3.3\xpp3-1.1.3.3.jar;C:\Users\Alexandr\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;C:\Users\Alexandr\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Alexandr\.m2\repository\org\hibernate\hibernate-core\5.6.5.Final\hibernate-core-5.6.5.Final.jar;C:\Users\Alexandr\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\Alexandr\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Alexandr\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\Alexandr\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Alexandr\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Alexandr\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\Alexandr\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Alexandr\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Alexandr\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\Alexandr\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Alexandr\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Alexandr\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Alexandr\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Alexandr\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Alexandr\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Alexandr\.m2\repository\org\hibernate\hibernate-entitymanager\5.6.5.Final\hibernate-entitymanager-5.6.5.Final.jar;C:\Users\Alexandr\.m2\repository\org\hibernate\hibernate-c3p0\5.6.5.Final\hibernate-c3p0-5.6.5.Final.jar;C:\Users\Alexandr\.m2\repository\com\mchange\c3p0\0.9.5.5\c3p0-0.9.5.5.jar;C:\Users\Alexandr\.m2\repository\com\mchange\mchange-commons-java\0.2.19\mchange-commons-java-0.2.19.jar;C:\Users\Alexandr\.m2\repository\org\hibernate\hibernate-envers\5.6.5.Final\hibernate-envers-5.6.5.Final.jar;C:\Users\Alexandr\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\Alexandr\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\Alexandr\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, user.timezone=Europe/Moscow, java.vm.specification.version=17, os.name=Windows 7, current_session_context_class=thread, sun.java.launcher=SUN_STANDARD, user.country=RU, sun.boot.library.path=C:\Program Files\Java\jdk-17.0.1\bin, sun.java.command=ru.sfedu.simpleBuilder.YourApi, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Alexandr, user.language=ru, java.specification.vendor=Oracle Corporation, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCachingRegionFactory, java.version.date=2021-10-19, java.home=C:\Program Files\Java\jdk-17.0.1, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, cache.provider_class=org.hibernate.cache.internal.NoCachingRegionFactory, user.script=, connection.password=admin, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.1+12-LTS-39, user.name=Alexandr, path.separator=;, hibernate.connection.username=****, os.version=6.1, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:h2:tcp://localhost/~/test, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=thread, show_sql=true, hibernate.connection.driver_class=org.h2.Driver, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\Alexandr\AppData\Local\Temp\, java.version=17.0.1, user.dir=E:\AndrSP\IDeaPr\CrsWorkORM-thirdlab, os.arch=amd64, connection.username=admin, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, sun.os.patch.level=Service Pack 1, connection.driver_class=org.h2.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@24f870ee, native.encoding=Cp1251, java.library.path=C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\VS Expres\bin;C:\Users\Alexandr\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;E:\Unity\MonoDevelop\bin;D:\Dok\New Folder\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Dok\Новая папка (3)\OpenVPN\bin;D:\Dok\Git\cmd;C:\apache-maven-3.6.3\bin;D:\Dok\Post\bin;C:\Users\Alexandr\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Alexandr\AppData\Local\Programs\Python\Python38\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;F:\Microsoft VS Code\bin;D:\Dok\IntelliJ IDEA Community Edition 2020.3.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3\bin;;C:\Program Files\PostgreSQL\12\pgAdmin 4\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=17.0.1+12-LTS-39, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.pool_size=1, connection.url=jdbc:h2:tcp://localhost/~/test, java.class.version=61.0}
+2022-04-02 21:00:06.741 [main] DEBUG org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+2022-04-02 21:00:06.741 [main] DEBUG org.hibernate.envers.boot.internal.EnversIntegrator - Skipping Envers listener registrations : No audited entities found
+2022-04-02 21:00:06.754 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+2022-04-02 21:00:06.754 [main] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@15f2eda3] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@11c3ff67]
+2022-04-02 21:00:06.802 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet] is safe
+2022-04-02 21:00:06.802 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet
+2022-04-02 21:00:06.996 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.list.BuildingList] is safe
+2022-04-02 21:00:06.996 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.list.BuildingList
+2022-04-02 21:00:07.010 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab5.model.Material] is safe
+2022-04-02 21:00:07.011 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab5.model.Material
+2022-04-02 21:00:07.026 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate#material` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.026 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate#material` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.027 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate] is safe
+2022-04-02 21:00:07.027 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate
+2022-04-02 21:00:07.037 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate#material` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.037 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate#material` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.038 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent] is safe
+2022-04-02 21:00:07.038 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent
+2022-04-02 21:00:07.049 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.Template#bt` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.049 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.Template#bt` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.049 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab5.model.Template] is safe
+2022-04-02 21:00:07.049 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab5.model.Template
+2022-04-02 21:00:07.056 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.Template#bt` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.056 [main] DEBUG org.hibernate.orm.bytecode.interceptor - To-one property `ru.sfedu.simpleBuilder.lab5.model.Template#bt` was mapped with LAZY + NO_PROXY but the class was not enhanced
+2022-04-02 21:00:07.057 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap] is safe
+2022-04-02 21:00:07.057 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap
+2022-04-02 21:00:07.074 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials
+2022-04-02 21:00:07.074 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: insert into Materialset (BUILDINGset_id, materials) values (?, ?)
+2022-04-02 21:00:07.074 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update Materialset set materials=? where BUILDINGset_id=? and materials=?
+2022-04-02 21:00:07.074 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: delete from Materialset where BUILDINGset_id=? and materials=?
+2022-04-02 21:00:07.074 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: delete from Materialset where BUILDINGset_id=?
+2022-04-02 21:00:07.076 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: update TemplateOO set id=? where id=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update TemplateOO set  where id=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: update TemplateOO set id=null where id=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: update TemplateOO set id=null where id=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: insert into MaterialMap (BuildingMap_id, name, materials) values (?, ?, ?)
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update MaterialMap set materials=? where BuildingMap_id=? and name=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: delete from MaterialMap where BuildingMap_id=? and name=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: delete from MaterialMap where BuildingMap_id=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?)
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update MaterialComponent set a=?, name=?, someField=? where BuildingComponent_id=? and a=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: delete from MaterialComponent where BuildingComponent_id=? and a=?
+2022-04-02 21:00:07.077 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: delete from MaterialComponent where BuildingComponent_id=?
+2022-04-02 21:00:07.078 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials
+2022-04-02 21:00:07.078 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: insert into MaterialList (BuildingList_id, materials_ORDER, materials) values (?, ?, ?)
+2022-04-02 21:00:07.078 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row update: update MaterialList set materials=? where BuildingList_id=? and materials_ORDER=?
+2022-04-02 21:00:07.078 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: delete from MaterialList where BuildingList_id=? and materials_ORDER=?
+2022-04-02 21:00:07.078 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: delete from MaterialList where BuildingList_id=?
+2022-04-02 21:00:07.081 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet
+2022-04-02 21:00:07.081 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from BuildingSet where id =?
+2022-04-02 21:00:07.081 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select buildingse_.id from BuildingSet buildingse_ where buildingse_.id=?
+2022-04-02 21:00:07.081 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into BuildingSet (id) values (?)
+2022-04-02 21:00:07.081 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: null
+2022-04-02 21:00:07.081 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from BuildingSet where id=?
+2022-04-02 21:00:07.099 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a1a256d]
+2022-04-02 21:00:07.100 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : materials
+2022-04-02 21:00:07.103 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@35d60381]
+2022-04-02 21:00:07.105 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.117 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.120 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet)
+          - CollectionAttributeFetchImpl(collection=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials, querySpaceUid=<gen:1>, path=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet)
+          - SQL table alias mapping - buildingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+          - JOIN (JoinDefinedByMetadata(materials)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials)
+                - SQL table alias mapping - materials1_
+                - alias suffix - 1_
+                - suffixed key columns - {building1_9_1_}
+
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet [NONE]: select buildingse0_.id as id1_3_0_, materials1_.BUILDINGset_id as building1_9_1_, materials1_.materials as material2_9_1_ from BuildingSet buildingse0_ left outer join Materialset materials1_ on buildingse0_.id=materials1_.BUILDINGset_id where buildingse0_.id=?
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab4.model.list.BuildingList
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from BuildingList where id =?
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select buildingli_.id from BuildingList buildingli_ where buildingli_.id=?
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into BuildingList (id) values (?)
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: null
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from BuildingList where id=?
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f992a3a]
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : materials
+2022-04-02 21:00:07.123 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@261bd7b]
+2022-04-02 21:00:07.124 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting index for collection :  materials
+2022-04-02 21:00:07.124 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.124 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.124 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList)
+          - CollectionAttributeFetchImpl(collection=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials, querySpaceUid=<gen:1>, path=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList)
+          - SQL table alias mapping - buildingli0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(materials)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials)
+                - SQL table alias mapping - materials1_
+                - alias suffix - 1_
+                - suffixed key columns - {building1_6_1_}
+
+2022-04-02 21:00:07.124 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab4.model.list.BuildingList [NONE]: select buildingli0_.id as id1_1_0_, materials1_.BuildingList_id as building1_6_1_, materials1_.materials as material2_6_1_, materials1_.materials_ORDER as material3_1_ from BuildingList buildingli0_ left outer join MaterialList materials1_ on buildingli0_.id=materials1_.BuildingList_id where buildingli0_.id=?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab5.model.Material
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from MaterialOO where id =?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select material_.id, material_.description as descript2_8_, material_.name as name3_8_, material_.someFieldSecond as somefiel4_8_ from MaterialOO material_ where material_.id=?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into MaterialOO (description, name, someFieldSecond, id) values (?, ?, ?, ?)
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update MaterialOO set description=?, name=?, someFieldSecond=? where id=?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from MaterialOO where id=?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@588545ac]
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : description
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : someFieldSecond
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab5.model.Material)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab5.model.Material, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab5.model.Material)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab5.model.Material)
+          - SQL table alias mapping - material0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_8_0_}
+
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab5.model.Material [NONE]: select material0_.id as id1_8_0_, material0_.description as descript2_8_0_, material0_.name as name3_8_0_, material0_.someFieldSecond as somefiel4_8_0_ from MaterialOO material0_ where material0_.id=?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from BuildingTemplateOO where id =?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select buildingte_.id, buildingte_.material_id as material3_4_, buildingte_.name as name2_4_ from BuildingTemplateOO buildingte_ where buildingte_.id=?
+2022-04-02 21:00:07.125 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into BuildingTemplateOO (material_id, name, id) values (?, ?, ?)
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update BuildingTemplateOO set material_id=?, name=? where id=?
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from BuildingTemplateOO where id=?
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@78a8978a]
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : material
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7d4d8579]
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : material.description
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : material.name
+2022-04-02 21:00:07.126 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : material.someFieldSecond
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : templates
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@75fe1619]
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4e245739]
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : templates.bt
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : templates.bt
+2022-04-02 21:00:07.127 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : templates.someField
+2022-04-02 21:00:07.128 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.128 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.128 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate)
+          - EntityAttributeFetchImpl(entity=ru.sfedu.simpleBuilder.lab5.model.Material, querySpaceUid=<gen:1>, path=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.material)
+          - CollectionAttributeFetchImpl(collection=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates, querySpaceUid=<gen:2>, path=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=ru.sfedu.simpleBuilder.lab5.model.Template, querySpaceUid=<gen:3>, path=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate)
+          - SQL table alias mapping - buildingte0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+          - JOIN (JoinDefinedByMetadata(material)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=ru.sfedu.simpleBuilder.lab5.model.Material)
+                - SQL table alias mapping - material1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_8_1_}
+          - JOIN (JoinDefinedByMetadata(templates)) : <gen:0> -> <gen:2>
+             - CollectionQuerySpaceImpl(uid=<gen:2>, collection=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates)
+                - SQL table alias mapping - templates2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_10_2_}
+                - entity-element alias suffix - 3_
+                - 3_entity-element suffixed key columns - id1_10_3_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:2> -> <gen:3>
+                   - EntityQuerySpaceImpl(uid=<gen:3>, entity=ru.sfedu.simpleBuilder.lab5.model.Template)
+                      - SQL table alias mapping - templates2_
+                      - alias suffix - 3_
+                      - suffixed key columns - {id1_10_3_}
+
+2022-04-02 21:00:07.128 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate [NONE]: select buildingte0_.id as id1_4_0_, buildingte0_.material_id as material3_4_0_, buildingte0_.name as name2_4_0_, material1_.id as id1_8_1_, material1_.description as descript2_8_1_, material1_.name as name3_8_1_, material1_.someFieldSecond as somefiel4_8_1_, templates2_.id as id1_10_2_, templates2_.id as id1_10_3_, templates2_.someField as somefiel2_10_3_ from BuildingTemplateOO buildingte0_ inner join MaterialOO material1_ on buildingte0_.material_id=material1_.id left outer join TemplateOO templates2_ on buildingte0_.id=templates2_.id where buildingte0_.id=?
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from BUILDINGCOMPONENT where id =?
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select buildingco_.id from BUILDINGCOMPONENT buildingco_ where buildingco_.id=?
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into BUILDINGCOMPONENT (id) values (?)
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: null
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from BUILDINGCOMPONENT where id=?
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1c34365c]
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : Materials
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@412c5e8b]
+2022-04-02 21:00:07.129 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@11d86b9d]
+2022-04-02 21:00:07.132 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : Materials.a
+2022-04-02 21:00:07.132 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : Materials.name
+2022-04-02 21:00:07.132 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : Materials.someField
+2022-04-02 21:00:07.132 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.132 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.132 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent)
+          - CollectionAttributeFetchImpl(collection=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials, querySpaceUid=<gen:1>, path=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials)
+             - (collection element)     - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent)
+          - SQL table alias mapping - buildingco0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(Materials)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials)
+                - SQL table alias mapping - materials1_
+                - alias suffix - 1_
+                - suffixed key columns - {building1_5_1_}
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - CompositeQuerySpaceImpl(uid=<gen:2>)
+                      - SQL table alias mapping - materials1_
+
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent [NONE]: select buildingco0_.id as id1_0_0_, materials1_.BuildingComponent_id as building1_5_1_, materials1_.a as a2_5_1_, materials1_.name as name3_5_1_, materials1_.someField as somefiel4_5_1_ from BUILDINGCOMPONENT buildingco0_ left outer join MaterialComponent materials1_ on buildingco0_.id=materials1_.BuildingComponent_id where buildingco0_.id=?
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab5.model.Template
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from TemplateOO where id =?
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select template_.id, template_.someField as somefiel2_10_ from TemplateOO template_ where template_.id=?
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into TemplateOO (someField, id) values (?, ?)
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update TemplateOO set someField=? where id=?
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from TemplateOO where id=?
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e7b265e]
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : bt
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : bt
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : someField
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.133 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab5.model.Template)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab5.model.Template, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab5.model.Template)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab5.model.Template)
+          - SQL table alias mapping - template0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_10_0_}
+
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab5.model.Template [NONE]: select template0_.id as id1_10_0_, template0_.someField as somefiel2_10_0_ from TemplateOO template0_ where template0_.id=?
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from BuildingMap where id =?
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select buildingma_.id from BuildingMap buildingma_ where buildingma_.id=?
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into BuildingMap (id) values (?)
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: null
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from BuildingMap where id=?
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33d60b7e]
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : materials
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4872669f]
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting index for collection :  materials
+2022-04-02 21:00:07.134 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.135 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.135 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap)
+    - Returns
+       - EntityReturnImpl(entity=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap, querySpaceUid=<gen:0>, path=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap)
+          - CollectionAttributeFetchImpl(collection=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials, querySpaceUid=<gen:1>, path=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap)
+          - SQL table alias mapping - buildingma0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(materials)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials)
+                - SQL table alias mapping - materials1_
+                - alias suffix - 1_
+                - suffixed key columns - {building1_7_1_}
+
+2022-04-02 21:00:07.135 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap [NONE]: select buildingma0_.id as id1_2_0_, materials1_.BuildingMap_id as building1_7_1_, materials1_.materials as material2_7_1_, materials1_.name as name3_1_ from BuildingMap buildingma0_ left outer join MaterialMap materials1_ on buildingma0_.id=materials1_.BuildingMap_id where buildingma0_.id=?
+2022-04-02 21:00:07.137 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@78b7f805]
+2022-04-02 21:00:07.138 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.139 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.139 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials)
+    - Returns
+       - CollectionReturnImpl(collection=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials, querySpaceUid=<gen:0>, path=[ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials])
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials)
+          - SQL table alias mapping - materials0_
+          - alias suffix - 0_
+          - suffixed key columns - {building1_9_0_}
+
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection ru.sfedu.simpleBuilder.lab4.model.set.BuildingSet.materials: select materials0_.BUILDINGset_id as building1_9_0_, materials0_.materials as material2_9_0_ from Materialset materials0_ where materials0_.BUILDINGset_id=?
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1859ffda]
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59838256]
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : bt
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Property path deemed to be circular : bt
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : someField
+2022-04-02 21:00:07.140 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.141 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.141 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates)
+    - Returns
+       - CollectionReturnImpl(collection=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates, querySpaceUid=<gen:0>, path=[ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=ru.sfedu.simpleBuilder.lab5.model.Template, querySpaceUid=<gen:1>, path=[ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates)
+          - SQL table alias mapping - templates0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_10_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_10_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=ru.sfedu.simpleBuilder.lab5.model.Template)
+                - SQL table alias mapping - templates0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_10_1_}
+
+2022-04-02 21:00:07.141 [main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection ru.sfedu.simpleBuilder.lab5.model.BuildingTemplate.templates: select templates0_.id as id1_10_0_, templates0_.id as id1_10_1_, templates0_.someField as somefiel2_10_1_ from TemplateOO templates0_ where templates0_.id=?
+2022-04-02 21:00:07.141 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7f0b93b4]
+2022-04-02 21:00:07.141 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting index for collection :  
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials)
+    - Returns
+       - CollectionReturnImpl(collection=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials, querySpaceUid=<gen:0>, path=[ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials])
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials)
+          - SQL table alias mapping - materials0_
+          - alias suffix - 0_
+          - suffixed key columns - {building1_7_0_}
+
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection ru.sfedu.simpleBuilder.lab4.model.map.BuildingMap.materials: select materials0_.BuildingMap_id as building1_7_0_, materials0_.materials as material2_7_0_, materials0_.name as name3_0_ from MaterialMap materials0_ where materials0_.BuildingMap_id=?
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1f736d00]
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CompositeQuerySpaceImpl@523a7801]
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : a
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : someField
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.142 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials)
+    - Returns
+       - CollectionReturnImpl(collection=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials, querySpaceUid=<gen:0>, path=[ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials])
+          - (collection element)     - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials)
+          - SQL table alias mapping - materials0_
+          - alias suffix - 0_
+          - suffixed key columns - {building1_5_0_}
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - CompositeQuerySpaceImpl(uid=<gen:1>)
+                - SQL table alias mapping - materials0_
+
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials: select materials0_.BuildingComponent_id as building1_5_0_, materials0_.a as a2_5_0_, materials0_.name as name3_5_0_, materials0_.someField as somefiel4_5_0_ from MaterialComponent materials0_ where materials0_.BuildingComponent_id=?
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@4f59a516]
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting index for collection :  
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(collection=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials)
+    - Returns
+       - CollectionReturnImpl(collection=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials, querySpaceUid=<gen:0>, path=[ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials])
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials)
+          - SQL table alias mapping - materials0_
+          - alias suffix - 0_
+          - suffixed key columns - {building1_6_0_}
+
+2022-04-02 21:00:07.143 [main] DEBUG org.hibernate.loader.collection.plan.CollectionLoader - Static select for collection ru.sfedu.simpleBuilder.lab4.model.list.BuildingList.materials: select materials0_.BuildingList_id as building1_6_0_, materials0_.materials as material2_6_0_, materials0_.materials_ORDER as material3_0_ from MaterialList materials0_ where materials0_.BuildingList_id=?
+2022-04-02 21:00:07.166 [main] DEBUG org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator - No actions specified; doing nothing
+2022-04-02 21:00:07.168 [main] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+2022-04-02 21:00:07.169 [main] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+2022-04-02 21:00:07.171 [main] DEBUG org.hibernate.service.internal.SessionFactoryServiceRegistryImpl - EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2022-04-02 21:00:07.175 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@4c731956
+2022-04-02 21:00:07.176 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: 8d13b855-418e-466a-b825-b8767575fcd8 (<unnamed>)
+2022-04-02 21:00:07.176 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+2022-04-02 21:00:07.176 [main] INFO  ru.sfedu.simpleBuilder.lab1.api.HibernateUtil - end getSessionFactory()
+2022-04-02 21:00:07.219 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+2022-04-02 21:00:07.227 [main] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2022-04-02 21:00:07.227 [main] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - begin
+2022-04-02 21:00:07.231 [main] DEBUG org.hibernate.event.internal.AbstractSaveEventListener - Generated identifier: 1648922405094, using strategy: org.hibernate.id.Assigned
+2022-04-02 21:00:07.251 [main] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
+2022-04-02 21:00:07.251 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+2022-04-02 21:00:07.252 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+2022-04-02 21:00:07.255 [main] DEBUG org.hibernate.engine.internal.Collections - Collection found: [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials#1648922405094], was: [<unreferenced>] (initialized)
+2022-04-02 21:00:07.256 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+2022-04-02 21:00:07.257 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+2022-04-02 21:00:07.257 [main] DEBUG org.hibernate.internal.util.EntityPrinter - Listing entities:
+2022-04-02 21:00:07.257 [main] DEBUG org.hibernate.internal.util.EntityPrinter - ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent{Materials=[component[a,name,someField]{a=0, name=12222, someField=test}, component[a,name,someField]{a=0, name=022222, someField=abc}], id=1648922405094}
+2022-04-02 21:00:07.263 [main] DEBUG org.hibernate.SQL - insert into BUILDINGCOMPONENT (id) values (?)
+2022-04-02 21:00:07.273 [main] DEBUG org.hibernate.persister.collection.AbstractCollectionPersister - Inserting collection: [ru.sfedu.simpleBuilder.lab4.model.component.BuildingComponent.Materials#1648922405094]
+2022-04-02 21:00:07.273 [main] DEBUG org.hibernate.SQL - insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?)
+2022-04-02 21:00:07.274 [main] DEBUG com.mchange.v2.c3p0.impl.NewPooledConnection - com.mchange.v2.c3p0.impl.NewPooledConnection@adf8801 handling a throwable.
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "A" не найден
+Column "A" not found; SQL statement:
+insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?) [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:611) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:85) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:51) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:481) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352) ~[h2-1.4.200.jar:1.4.200]
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.prepareStatement(NewProxyConnection.java:567) ~[c3p0-0.9.5.5.jar:0.9.5.5]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.buildBatchStatement(AbstractBatchImpl.java:137) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.getBatchStatement(AbstractBatchImpl.java:126) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1328) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.action.internal.CollectionRecreateAction.execute(CollectionRecreateAction.java:50) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1402) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:493) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3285) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2420) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.simpleBuilder.lab3.api.DataProvider.insert(DataProvider.java:25) [classes/:?]
+	at ru.sfedu.simpleBuilder.YourApi.main(YourApi.java:39) [classes/:?]
+2022-04-02 21:00:07.283 [main] DEBUG com.mchange.v2.sql.SqlUtils - Attempted to convert SQLException to SQLException. Leaving it alone. [SQLState: 42S22; errorCode: 42122]
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "A" не найден
+Column "A" not found; SQL statement:
+insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?) [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:611) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:85) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:51) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:481) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352) ~[h2-1.4.200.jar:1.4.200]
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.prepareStatement(NewProxyConnection.java:567) ~[c3p0-0.9.5.5.jar:0.9.5.5]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.buildBatchStatement(AbstractBatchImpl.java:137) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.getBatchStatement(AbstractBatchImpl.java:126) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1328) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.action.internal.CollectionRecreateAction.execute(CollectionRecreateAction.java:50) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1402) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:493) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3285) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2420) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.simpleBuilder.lab3.api.DataProvider.insert(DataProvider.java:25) [classes/:?]
+	at ru.sfedu.simpleBuilder.YourApi.main(YourApi.java:39) [classes/:?]
+2022-04-02 21:00:07.284 [main] DEBUG com.mchange.v2.c3p0.impl.DefaultConnectionTester - Testing a Connection in response to an Exception:
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "A" не найден
+Column "A" not found; SQL statement:
+insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?) [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:611) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:85) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:51) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:481) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352) ~[h2-1.4.200.jar:1.4.200]
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.prepareStatement(NewProxyConnection.java:567) ~[c3p0-0.9.5.5.jar:0.9.5.5]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.buildBatchStatement(AbstractBatchImpl.java:137) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.getBatchStatement(AbstractBatchImpl.java:126) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1328) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.action.internal.CollectionRecreateAction.execute(CollectionRecreateAction.java:50) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1402) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:493) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3285) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2420) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.simpleBuilder.lab3.api.DataProvider.insert(DataProvider.java:25) [classes/:?]
+	at ru.sfedu.simpleBuilder.YourApi.main(YourApi.java:39) [classes/:?]
+2022-04-02 21:00:07.285 [main] DEBUG org.hibernate.engine.jdbc.spi.SqlExceptionHelper - could not prepare statement [insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?)]
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "A" не найден
+Column "A" not found; SQL statement:
+insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?) [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.done(SessionRemote.java:611) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.prepare(CommandRemote.java:85) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandRemote.<init>(CommandRemote.java:51) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:481) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:352) ~[h2-1.4.200.jar:1.4.200]
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.prepareStatement(NewProxyConnection.java:567) ~[c3p0-0.9.5.5.jar:0.9.5.5]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$1.doPrepare(StatementPreparerImpl.java:90) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareStatement(StatementPreparerImpl.java:81) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.buildBatchStatement(AbstractBatchImpl.java:137) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.getBatchStatement(AbstractBatchImpl.java:126) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1328) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.action.internal.CollectionRecreateAction.execute(CollectionRecreateAction.java:50) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1402) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:493) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3285) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2420) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.simpleBuilder.lab3.api.DataProvider.insert(DataProvider.java:25) [classes/:?]
+	at ru.sfedu.simpleBuilder.YourApi.main(YourApi.java:39) [classes/:?]
+2022-04-02 21:00:07.286 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 42122, SQLState: 42S22
+2022-04-02 21:00:07.286 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Столбец "A" не найден
+Column "A" not found; SQL statement:
+insert into MaterialComponent (BuildingComponent_id, a, name, someField) values (?, ?, ?, ?) [42122-200]
+2022-04-02 21:00:07.288 [main] DEBUG org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:324) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:203) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:428) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.handlePersistenceException(ExceptionConverterImpl.java:297) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:155) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1406) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:493) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3285) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2420) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:449) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.simpleBuilder.lab3.api.DataProvider.insert(DataProvider.java:25) [classes/:?]
+	at ru.sfedu.simpleBuilder.YourApi.main(YourApi.java:39) [classes/:?]
+2022-04-02 21:00:07.289 [main] DEBUG org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:324) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:192) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.simpleBuilder.lab3.api.DataProvider.insert(DataProvider.java:25) [classes/:?]
+	at ru.sfedu.simpleBuilder.YourApi.main(YourApi.java:39) [classes/:?]
+2022-04-02 21:00:07.290 [main] DEBUG org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2022-04-02 21:00:07.291 [main] DEBUG org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+2022-04-02 21:00:07.292 [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+2022-04-02 21:00:07.293 [main] ERROR ru.sfedu.simpleBuilder.lab3.api.DataProvider - javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+2022-04-02 21:00:07.293 [main] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - rollback() called on an inactive transaction
